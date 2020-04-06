@@ -1,0 +1,4 @@
+HPR =input("Enter Your Hourly Pay Rate :")
+NRW =input("Enter you Number of Hours Worked : ")
+grosspay = int(HPR)*int(NRW)
+print("Your Gross Pay is : {}".format(grosspay))
