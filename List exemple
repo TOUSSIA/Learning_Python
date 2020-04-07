@@ -1,0 +1,4 @@
+List1 = [10,20,30,40,50]
+List2 = ["Ahemd","Aissa","Hasssan","Ali","Bouazza"]
+print(List1)
+print(List2)
