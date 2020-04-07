@@ -1,0 +1,2 @@
+List01=list(range(0,10,1)) #range(Starts,Ends,Step)
+print(List01)
