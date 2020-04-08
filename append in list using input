@@ -1,0 +1,26 @@
+Original_List = ["Toufik", "Assia", "Brahim", "Youcef"]
+print("This is The Original List : ", Original_List)
+
+####################################################
+# Using .append("...") to add element in the original list
+New_List = input("Add Name to the list : ")
+Original_List.append(New_List)
+print("This is The New list", Original_List)
+
+
+Result:
+This is The Original List :  ['Toufik', 'Assia', 'Brahim', 'Youcef']
+Add Name to the list : chalouli
+This is The New list ['Toufik', 'Assia', 'Brahim', 'Youcef', 'chalouli']
+########################################################################################################
+
+#Usin while loop 
+Original_List = ["Toufik", "Assia", "Brahim", "Youcef"]
+print("This is The Original List : ", Original_List)
+New_List = input("Add Name to the list : ")
+Original_List.append(New_List)  # Using .append("...") to add element in the original list
+print("This is The New list", Original_List)
+while (Original_List):
+    New_List = input("Add Name to the list : ")
+    Original_List.append(New_List)
+    print("This is The New list", Original_List)
