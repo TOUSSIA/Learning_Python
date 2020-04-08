@@ -1,0 +1,6 @@
+list1 = ["Ahemd", "Omar", "Saîd", "Zouhir" ] #List n1
+print(list1)
+list2 = ["Chalouli", "Attafi", "Raouf", "Fouad"] #List n2
+print(list2)
+list1.extend(list2) #Add List1 to List2
+print(list1)
