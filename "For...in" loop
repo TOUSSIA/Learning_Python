@@ -3,3 +3,39 @@ for item in range(len(list1)):  #range gives me how many values in list
     print(item) #item is evey value in the list 
 
 # For its a loop that deals with every value
+result:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+***************************************************************************************
+list1 = [7, 10, 210, 30, 440, 50, 960, 780, 80, 90, 10000, 501321]  #This is the list
+for item in range(len(list1)):  #range gives me how many values in list
+    print(list1[item]) #item is evey value in the list
+OR:
+list1 = [7, 10, 210, 30, 440, 50, 960, 780, 80, 90, 10000, 501321]  #This is the list
+for item in list1:  #range gives me how many values in list
+    print(item) #item is evey value in the list
+    
+# For...in it's a loop that deals with every value.
+result:
+7
+10
+210
+30
+440
+50
+960
+780
+80
+90
+10000
+501321
