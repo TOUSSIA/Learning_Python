@@ -1,0 +1,6 @@
+list1 = [7, 10, 210, 30, 440, 5000000000, 960, 780, 80, 90, 10000, 501321]  # This is the list
+sum_list = sum(list1)  # sum function do an addition to list elements
+print("this is sum list : ", sum_list)
+ 
+ result:
+ this is sum list :  5000513928
