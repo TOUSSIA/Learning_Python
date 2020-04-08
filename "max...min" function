@@ -1,0 +1,25 @@
+list1 = [7, 10, 210, 30, 440, 5000000000, 960, 780, 80, 90, 10000, 501321]  # This is the list
+max_list = max(list1)  # max function indicate biggest number in the list
+print("this is my list:", list1)
+print("this is max list : ", max_list)
+
+Result:
+this is my list: [7, 10, 210, 30, 440, 5000000000, 960, 780, 80, 90, 10000, 501321]
+this is max list :  5000000000
+
+
+**********************************************************************************************
+
+
+
+list1 = [7, 10, 210, 30, 440, 5000000000, 960, 780, 80, 90, 10000, 501321]  # This is the list
+min_list = min(list1)  # min function indicate the smallest number in the list
+print("this is my list:", list1)
+print("this is min list : ", min_list)
+
+Result:
+
+this is my list: [7, 10, 210, 30, 440, 5000000000, 960, 780, 80, 90, 10000, 501321]
+this is min list :  7
+
+
