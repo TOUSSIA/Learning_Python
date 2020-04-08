@@ -24,3 +24,18 @@ while (Original_List):
     New_List = input("Add Name to the list : ")
     Original_List.append(New_List)
     print("This is The New list", Original_List)
+########################################################################################################
+I WANT TO APPEND THE LIST BUT NOT MORE THAN 11 ELEMENT
+
+Original_List = ["Toufik", "Assia", "Brahim", "Youcef"]
+print("This is The Original List : ", Original_List)
+
+####################################################
+# Using .append("...") to add element in the original list
+New_List = input("Add Name to the list : ")
+Original_List.append(New_List)
+print("This is The New list", Original_List)
+while (len(Original_List)<=10): # Using while "loop" to repeat operation and "len" to limit List elements
+    New_List = input("Add Name to the list : ")
+    Original_List.append(New_List)
+    print("This is The New list", Original_List)
