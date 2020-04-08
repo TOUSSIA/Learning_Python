@@ -1,0 +1,9 @@
+list1 = [7, 10, 210, 30, 440, 5000000000, 960, 780, 80, 90, 10000, 501321]  # Original List
+print("The original list is : ",list1)
+######################################
+list1.reverse()  # Reverse Function
+print("This is the reversed list", list1)  # Reversed List
+
+Result : 
+The original list is :  [7, 10, 210, 30, 440, 5000000000, 960, 780, 80, 90, 10000, 501321]
+This is the reversed list [501321, 10000, 90, 80, 780, 960, 5000000000, 440, 30, 210, 10, 7]
