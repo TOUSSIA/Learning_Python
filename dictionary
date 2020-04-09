@@ -27,3 +27,12 @@ print(dict)
 Result:
 5
 {'Algeria': 'Alger', 'Hattab': 'Karim', 'Tunisia': 'Tunis', 'Saber': 'Khaled'}
+
+############################################################################################
+dict.clear() #syntaxe to clear empty the dictionary
+print(dict) 
+
+Result : 
+{}
+
+
