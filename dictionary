@@ -1,14 +1,14 @@
 dict = {'Chalouli': 'Toufik', 'Algeria': 'Alger', 'Hattab': 'Karim', 'Tunisia':'Tunis'}  #Dictionary syntax
 
-print(dict)  # Print all dictionary
+print(dict)              # Print all dictionary
 
 print(dict['Chalouli'])  #print one key from the dictionary
 
 print(dict['Chalouli'], dict['Hattab']) #Print multiple keys from the dictionary
 ############################################################################################
 dict['Saber']='Khaled'  # add a key to the dict
-print(dict)         # as you see it has been add
-print(dict['Saber'])  # print only the new add key
+print(dict)             # as you see it has been add
+print(dict['Saber'])    # print only the new add key
 
 ############################################################################################
 
@@ -19,3 +19,11 @@ Toufik
 Toufik Karim
 {'Chalouli': 'Toufik', 'Algeria': 'Alger', 'Hattab': 'Karim', 'Tunisia': 'Tunis', 'Saber': 'Khaled'}
 Khaled
+############################################################################################
+print(len(dict))     # tells me how many Key/Value pairs in the Dict
+del dict['Chalouli'] # syntaxe to Delete a Key/Value Pair from Dict
+print(dict)
+
+Result:
+5
+{'Algeria': 'Alger', 'Hattab': 'Karim', 'Tunisia': 'Tunis', 'Saber': 'Khaled'}
