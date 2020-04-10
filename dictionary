@@ -43,4 +43,9 @@ print(dict.keys()) # Shows dict keys (['Chalouli', 'Algeria', 'Hattab', 'Tunisia
 ############################################################################################
 
 (dict.update(dict2))
-print(dict
+print(dict)
+{'Chalouli': 'assia', 'Algeria': 'Chelf', 'Hattab': 'Forest', 'Tunisia': 'Hamamat'}
+
+############################################################################################
+print(dict.items()) #shows dict key/value pairs
+dict_items([('Chalouli', 'Toufik'), ('Algeria', 'Alger'), ('Hattab', 'Karim'), ('Tunisia', 'Tunis')])
