@@ -35,4 +35,7 @@ print(dict)
 Result : 
 {}
 
-
+############################################################################################
+dict = {'Chalouli': 'Toufik', 'Algeria': 'Alger', 'Hattab': 'Karim', 'Tunisia': 'Tunis'}  #Dictionary syntax
+print(dict.values()) # shows dict Values (['Toufik', 'Alger', 'Karim', 'Tunis'])
+print(dict.keys()) # Shows dict keys (['Chalouli', 'Algeria', 'Hattab', 'Tunisia'])
