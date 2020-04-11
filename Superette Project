@@ -1,0 +1,31 @@
+buy_input = float(input("Enter First Item Price = "))           # Here You Enter The Price.
+The Addition Of Multiple Items with Inputed Variables 
+
+buy_item = float(buy_input)                                     # Adding This Variable To An Instance.
+print("Your first Buy Item Price  = {}".format(buy_item))       # Show To User The First Price.
+
+total = 0                                                       # This is Default Total Amount To Pay.
+total = total+buy_item                                          # Total Amount To Pay is The Result of Adding new price to 0.
+print("The Total Amount to pay is = {}".format(float(total)))   # Show that in This Format Method.
+
+########################################################################################################################
+while total > 0:                                                # Creating A loop To Repeat the Process of Buying.
+     buy_input = float(input("Enter Next Item Price = "))       # Enter Next Item Price.
+     buy_item = float(buy_input)                                # Adding This Variable To An Instance.
+     print("The Price of This Item is  = {}".format(buy_item))  # Show The Current Item Price
+     total = total+buy_item                                     # Total Amount To Pay After each Buy Operation.
+     print("The Total Amount to pay is = {}".format(total))     # Show The Total Amount To Pay After each Buy Operation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
