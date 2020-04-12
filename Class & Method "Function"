@@ -1,0 +1,9 @@
+class Demo_Class :                             # This is a Class
+    def demo_method(self):                     # this is a method within the Class
+        print("This is a demonstration Class") # a command in this Class
+
+
+###############################################
+
+my_object = Demo_Class()                       # We Use The Class By Instance = Class()
+my_object.demo_method()                        # Instance.method()
