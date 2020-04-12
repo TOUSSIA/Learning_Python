@@ -4,6 +4,26 @@ class Demo_Class :                             # This is a Class
 
 
 ###############################################
+###############################################
 
 my_object = Demo_Class()                       # We Use The Class By Instance = Class()
 my_object.demo_method()                        # Instance.method()
+
+###############################################
+###############################################
+
+
+class DoubleIt:                  # Class
+    def Method (self, x, y):     # Function
+        doubled_value = (x*y)
+        return doubled_value
+
+
+my_object = DoubleIt()           # first method to use Class+Function
+print(my_object.Method(11, 10))
+
+print(DoubleIt.Method(0, 11, 10))  # Second Method to use Class+Function
+
+Result : 
+110
+110
