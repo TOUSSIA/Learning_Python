@@ -1,0 +1,36 @@
+class BankAccount:                         # Class Name
+    # This First Method is to define the Client Name.
+    def __init__(self, client_name):       # Create initial method using  __init__('self' refers to Class, 'client_name' is the purpose of this class):
+        self.name = client_name            # 'self.name' self refers to the class. our objectif is the name
+    # This Method is to Get the Client Name.
+    def get_client_name(self):             # Create another Method to get client name  from the previous Method  (self) refers to Class
+        return self.name                   # return function
+################################################################################################################################################
+
+this_account = BankAccount("Chalouli Toufik") # new instance = Class("give it a name")
+print("This Account is Owned To :", this_account.get_client_name()) #print instance.get method
+
+################################################################################################################################################
+
+class BAnKaccount:
+    def __init__(self, client_balance):
+        self.balance = client_balance
+
+    def get_client_balance(self):
+        return self.balance
+
+
+client_balance = BAnKaccount("20000.00")
+print("This Client Balance is = ", client_balance.get_client_balance())
+
+
+################################################################################################################################################
+class AccountNumber:
+    def __init__(self, client_number):
+        self.number = client_number
+
+    def get_client_number(self): 
+        return self.number
+
+Client_Number = AccountNumber ("0796643919")
+print("This is The Client Account number : ",Client_Number.get_client_number())
