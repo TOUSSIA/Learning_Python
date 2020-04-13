@@ -23,7 +23,42 @@ my_object = DoubleIt()           # first method to use Class+Function
 print(my_object.Method(11, 10))
 
 print(DoubleIt.Method(0, 11, 10))  # Second Method to use Class+Function
-
+###############################################
+###############################################
 Result : 
 110
 110
+
+
+###############################################
+###############################################
+Class & Function & Return exemple : 
+class AddingNumbers :
+    def AddMethod(self,add1,add2):
+
+        add1=input ("Enter Value X : ")
+        add2 = input ("Enter Value Y : ")
+        add = int(add1)+int(add2)
+        return add
+operation1 = AddingNumbers
+print("Result of Operation 1 is = ", operation1.AddMethod(operation1,add1=0, add2=0))
+
+operation2 = AddingNumbers
+print("Result of Operation 2 is = ", operation2.AddMethod(operation2, add1=0, add2=0))
+
+operation3 = AddingNumbers
+print("Result of Operation 3 is = ", operation3.AddMethod(operation3,add1=0, add2=0))
+
+###############################################
+###############################################
+Result :
+
+Enter Value X : 10
+Enter Value Y : 5
+Result of Operation 1 is =  15
+Enter Value X : 12
+Enter Value Y : 1
+Result of Operation 2 is =  13
+Enter Value X : 13
+Enter Value Y : 31
+Result of Operation 3 is =  44
