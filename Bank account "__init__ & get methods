@@ -34,3 +34,24 @@ class AccountNumber:
 
 Client_Number = AccountNumber ("0796643919")
 print("This is The Client Account number : ",Client_Number.get_client_number())
+
+########################################################################################################################################
+
+class BankAccount:  # In this Class we declare all data of the client using __init__ methode
+    def __init__(self):
+        self.name = ("chalouli toufik".upper()) # Declare Client name.
+        self.balance = ("350000.00 DA")         # Declare Client Balance. 
+        self.number = ("0796643919")            # Declare Client Number.
+########################################################################################################################################
+    def get_client_name(self):                  # Function to get client name from __init__ function
+        return self.name                        # Get value from self.name
+    def get_client_balance(self):               # Function to get client balance from __init__ function
+        return self.balance                     # Get value from self.balance
+    def get_client_number(self):                # Function to get client number from __init__ function
+        return self.number                      # Get value from self.number
+########################################################################################################################################
+
+this_account = BankAccount()                    # Instance = Class name
+print("This Account is Owned To :", this_account.get_client_name())
+print("This Account Balance :", this_account.get_client_balance())
+print("This Account Owner Number :", this_account.get_client_number())
