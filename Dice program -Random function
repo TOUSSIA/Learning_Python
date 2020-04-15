@@ -1,0 +1,19 @@
+import random  # invoke random
+########################################################################################################################
+
+class Dice:     # Global Class
+
+    def __init__(self):  # function __init__ that set dice to 0 base value
+        self.side = 0    # Set dice value to 0.
+
+    def throw(self):     # function throw that randoms the dice value
+        self.side = random.randint(1, 6)  # random integers syntax
+
+    def get_dice(self):  # function to get dice value after thrown
+        return self.side # return dice value to get function
+########################################################################################################################
+
+diceside = Dice()         # instance  = Class above
+diceside.throw()         # instance bound to throw function
+dice_value = diceside.get_dice()  # new instance bound to 1st instance and get function
+print("Dice Side is : ", dice_value) # printing message, new instance
