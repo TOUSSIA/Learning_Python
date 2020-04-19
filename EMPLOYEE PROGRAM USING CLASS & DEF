@@ -1,0 +1,53 @@
+class Employee_Infos:   # Class that Set Employees Infos : Name,Age,Address,Phone Number
+    def __init__(self):
+        self.name = input("Enter Employee Name : ".upper())
+        self.age = input("Enter Employee Age :")
+        self.address = input("Enter Employee Address :")
+        self.phone = input("Enter Employee Phone Number :")
+
+
+class Employee_List:   # Class that Create a List of  employees from the entered names in Class Employee_Infos
+    def Emp_List(self):
+        employees_List = []
+        employees_List.append(Infos.name)
+        employees_number = len(employees_List)
+        return employees_number
+
+
+class Employee_Pay: # Class That Calculate the pay of the Employee by hour,day,month,year
+    def Emp_Pay(self):
+        PPH = eval(input("Enter The Employee Pay Per Hour = "))
+        Daily_Pay = PPH * 8
+        Monthly_Pay = Daily_Pay * 30
+        Annualy_Pay = Monthly_Pay * 12
+        return Monthly_Pay, Annualy_Pay
+
+
+########################################################
+Infos = Employee_Infos()
+print("Employee Name is : ", Infos.name.upper())
+print("Employee Age is : ", Infos.age)
+print("Employee Address is : ", Infos.address)
+print("Employee Phone Number is : ", Infos.phone)
+#########################################################
+List = Employee_List()
+print("This is The Employees List : ", Infos.name)
+print("Total Number of Employees is : ", List.Emp_List())
+#########################################################
+
+Pay = Employee_Pay()
+print("The Pay of {} Monthly & Annualy  is = ".format(Infos.name), Pay.Emp_Pay(), "DA")
+
+RESULT : 
+ENTER EMPLOYEE NAME : chalouli Toufik 
+Enter Employee Age : 33 
+Enter Employee Address : Boukadir 
+Enter Employee Phone Number : 0777777
+Employee Name is :  CHALOULI TOUFIK 
+Employee Age is :   33 
+Employee Address is :   Boukadir 
+Employee Phone Number is :   0777777
+This is The Employees List :  chalouli Toufik 
+Total Number of Employees is :  1
+Enter The Employee Pay Per Hour = 125 
+The Pay of chalouli Toufik  Monthly & Annualy  is =  (30000, 360000) DA
