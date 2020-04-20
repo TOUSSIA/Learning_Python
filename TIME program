@@ -13,3 +13,29 @@ def get_time():
 
 
 print("TIME NOW IS ", get_time())
+
+
+
+Bonus:
+import time
+def my_infos():
+    print(" ")
+    print("My Name is : Toufik CHALOULI")
+    print(" ")
+    print("     I'm 33 years Old")
+    print(" ")
+    print("       I'm A Gamer ♥")
+my_infos()
+def get_time():
+    epoch_time = time.time()
+    total_seconds = int(epoch_time)
+    current_second = total_seconds % 60
+    total_minutes = total_seconds//60
+    current_minutes = total_minutes % 60
+    total_hours = total_minutes//60+1
+    current_hour = total_hours % 24
+    current_time = str(current_hour) + ":" + str(current_minutes) + ":" + str(current_second)
+
+    return current_time
+print(" ")
+print("        ",get_time())
