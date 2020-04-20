@@ -1,0 +1,47 @@
+def User(name, phone_numbber, id):      # def MethodName(Param1,Param2,Param3)
+    print("This User Infos Are :".upper()) #This is what this method DO 
+    print("NAME :", name)
+    print("PHONE :", phone_numbber)
+    print("ID :", id)
+                        
+
+print(User("Ahmed", "0796643919", "9145685"))  # We Display (MethodName(Param1=Value, Param2=Value, Param3=Value)
+
+##############################################
+##############################################
+print(" ")
+print(" ")
+
+def User(name, phone_number, id):        
+    print("This User Infos Are :".upper())
+    print("NAME :", name)
+    print("PHONE :", phone_number)
+    print("ID :", id)
+
+User_name = input("Please Enter User Name Here : ")              # We Enter The Value of Each Param Manualy by asseign it to a Variable
+User_Phone = input("Please Enter User Phone Number Here : ")
+User_id = input("Please Enter User ID Here : ")
+
+User(User_name,User_Phone,User_id)                # We Display (MethodName(Variable1,Variable2,Variable3)
+
+##############################################
+##############################################
+
+RESULT : 
+
+HIS USER INFOS ARE :
+NAME : Ahmed
+PHONE : 0796643919
+ID : 9145685
+None
+ 
+ 
+Please Enter User Name Here : Ahmed 
+Please Enter User Phone Number Here : 0796641618
+Please Enter User ID Here : 9154685
+THIS USER INFOS ARE :
+NAME : Ahmed 
+PHONE : 0796641618
+ID : 9154685
+
+
