@@ -1,0 +1,23 @@
+                #Creditor Name Function
+def Creditor_Name(name):
+    return name
+print("Creditor Name is :".upper(), Creditor_Name(name=input("Enter Creditor Name : ".upper())))
+
+                # Credit addition Function
+def Credit_add(base, credit):
+    creditx = int(base)+int(credit)
+    return creditx
+
+                # Display Credit
+Creditation = Credit_add(base=0, credit=input("Enter Credit Amount = "))
+print("Credit is : ", Creditation)
+
+
+                # Credit Addition Loop 
+while Creditation > 0:
+    def Credit(base, credit):
+        creditx = Creditation + int(credit)
+        return creditx
+
+    Creditation = Credit(base=0, credit=input("Enter Credit Amount =  "))
+    print("The New Amount of Credit is ", Creditation)
