@@ -1,0 +1,17 @@
+SSD =  set([0,1,3,5,7,9])
+HDD = set([0,2,4,6,8,10])
+Vram = SSD.union(HDD)
+print(Vram)
+Sram = SSD.intersection(HDD)
+print(Sram)
+SSD.add(20)
+print(SSD)
+SSD.remove(20)
+print(SSD)
+SSD.clear()
+print(SSD)
+SSD.discard(50)
+L = 2 in SSD
+print(L)
+H = 2 in HDD
+print(H)
